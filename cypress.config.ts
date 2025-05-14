@@ -2,8 +2,8 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
     env: {
-        username: 'e2e@baselinker.com',
-        password: 'TsYJh3QSYq5tPTL4kAXp$',
+        username: '',
+        password: '',
     },
     video: false,
     numTestsKeptInMemory: 1,
@@ -14,7 +14,7 @@ export default defineConfig({
     downloadsFolder: 'cypress/fixtures/downloads',
     trashAssetsBeforeRuns: true,
     e2e: {
-        baseUrl: 'https://panel-180.staging.bl-sandbox.com',
+        baseUrl: '',
         specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
         retries: {
             runMode: 1,
